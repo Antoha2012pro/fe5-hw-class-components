@@ -45,8 +45,8 @@ export default class App extends Component {
     const { tasks } = this.state;
 
     return (
-      <div className="my-0 mx-auto py-0 px-4 md:w-[768px] space-y-3">
-        <h2 className="text-center font-medium text-3xl">Список завдань</h2>
+      <div className="my-0 mx-auto py-0 px-4 md:w-[768px] space-y-5">
+        <h2 className="text-center font-extrabold text-3xl mt-4">Список завдань</h2>
         <TaskList
           tasks={tasks}
           onDelete={this.deleteTask}

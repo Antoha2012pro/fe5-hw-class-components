@@ -48,7 +48,7 @@ export default class TaskList extends Component {
           )}
         </div>
 
-        <ul className="w-full max-w-80 flex flex-wrap gap-6">
+        <ul className="w-full max-w-80 flex flex-wrap gap-6 items-start content-start">
           {tasks.map(({ id, text }) => (
             <li
               className="group bg-blue-200 rounded-xl py-2 px-2 relative flex flex-col gap-2"
